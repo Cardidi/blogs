@@ -36,6 +36,9 @@ jobs:
       - name: 写入 CNAME
         run: echo "ca2didi.xyz" > contents/.vuepress/dist/CNAME
 
+      - name: SPA 路由修复（复制 index.html 为 404.html）
+        run: cp contents/.vuepress/dist/index.html contents/.vuepress/dist/404.html
+
       - name: 部署到 GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
