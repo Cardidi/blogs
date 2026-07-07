@@ -96,7 +96,7 @@ categories:             # 分类，用于分类页
 
 ## 部署
 
-push 到 `main` 分支 → GitHub Actions 自动构建 → 部署到 `gh-pages` 分支 → GitHub Pages 提供服务
+push 到 `master` 分支 → GitHub Actions 自动构建 → 部署到 `gh-pages` 分支 → GitHub Pages 提供服务
 
 - **自定义域名**: ca2didi.xyz
 - **base**: "/"
