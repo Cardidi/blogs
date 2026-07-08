@@ -15,6 +15,11 @@ export default defineThemeConfig({
     organization: '',
   },
 
+  social: [
+    { icon: 'github', link: 'https://github.com/Cardidi' },
+    { icon: 'x', link: 'https://x.com/Ca2didi' },
+  ],
+
   navbar,
   collections,
 
