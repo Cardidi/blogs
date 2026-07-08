@@ -3,16 +3,17 @@ home: true
 config:
   - type: hero
     full: true
-    background: gradient
+    effect: dot-grid
     hero:
-      name: ca2didi
-      tagline: 技术与生活
-      text: 一个记录学习、思考与生活的地方
+      name: 🦌之神坛
+      text: 一般路过游戏人的碎碎念
       actions:
-        - text: 博客
+        - text: 阅读文章 →
           link: /blog/
           theme: brand
-        - text: 关于
+          icon: flowbite:book-outline
+        - text: 关于我
           link: /about/
           theme: alt
+          icon: flowbite:face-grin-stars-outline
 ---

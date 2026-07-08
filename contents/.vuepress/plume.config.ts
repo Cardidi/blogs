@@ -7,24 +7,23 @@ export default defineThemeConfig({
   appearance: true,
 
   profile: {
-    name: 'ca2didi',
-    description: '技术与生活',
+    name: 'Ca2didi',
+    description: '专注于游戏开发领域的小众民工',
     avatar: '/avatar.png',
     circle: true,
-    location: '',
-    organization: '',
   },
 
   social: [
     { icon: 'github', link: 'https://github.com/Cardidi' },
-    { icon: 'x', link: 'https://x.com/Ca2didi' },
+    { icon: 'twitter', link: 'https://x.com/Ca2didi' },
   ],
 
   navbar,
   collections,
 
   footer: {
-    message: 'Powered by <a href="https://v2.vuepress.vuejs.org/" target="_blank">VuePress</a> & <a href="https://theme-plume.vuejs.press" target="_blank">vuepress-theme-plume</a>',
+    message: 'Use <a href="https://v2.vuepress.vuejs.org/" target="_blank">VuePress</a> & <a href="https://theme-plume.vuejs.press" target="_blank">Plume</a> to Orgnize Bytes.',
+    copyright: "Cardidi © 2026, All Right Reserved."
   },
 
   blog: {
@@ -49,7 +48,9 @@ export default defineThemeConfig({
     markdownMath: {},
     readingTime: {},
     watermark: { enabled: false },
-    autoFrontmatter: {},
+    autoFrontmatter: {
+      permalink: 'filepath'
+    },
     changelog: {},
     contributors: {},
     copyright: true,
@@ -57,5 +58,4 @@ export default defineThemeConfig({
       hostname: 'https://ca2didi.xyz',
     },
   },
-
 })

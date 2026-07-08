@@ -4,8 +4,8 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  title: 'ca2didi',
-  description: '个人博客 - 技术与生活',
+  title: 'CA2DSite',
+  description: 'Preserved Space for Ca2didi',
   base: '/',
   theme: plumeTheme({
     hostname: 'https://ca2didi.xyz',

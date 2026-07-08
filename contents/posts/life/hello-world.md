@@ -6,7 +6,7 @@ tags:
 categories:
   - 生活
 createTime: 2026/07/08 01:05:22
-permalink: /blog/k2v56c1h/
+permalink: /blog/r7hppv9k/
 ---
 
 # 我的第一篇博客
