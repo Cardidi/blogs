@@ -3,11 +3,11 @@ import navbar from './navbar.js'
 import collections from './collections.js'
 
 export default defineThemeConfig({
-  logo: '/avatar.png',
+  logo: '',
   appearance: true,
 
   profile: {
-    name: 'Ca2didi',
+    name: '鹿本人',
     description: '专注于游戏开发领域的小众民工',
     avatar: '/avatar.png',
     circle: true,
@@ -22,7 +22,7 @@ export default defineThemeConfig({
   collections,
 
   footer: {
-    message: 'Use <a href="https://v2.vuepress.vuejs.org/" target="_blank">VuePress</a> & <a href="https://theme-plume.vuejs.press" target="_blank">Plume</a> to Orgnize Bytes.',
+    message: 'Use <a href="https://v2.vuepress.vuejs.org/" target="_blank">VuePress</a> & <a href="https://theme-plume.vuejs.press" target="_blank">Plume</a> to Organize Bytes.',
     copyright: "Cardidi © 2026, All Right Reserved."
   },
 

@@ -11,4 +11,5 @@ export default defineUserConfig({
     hostname: 'https://ca2didi.xyz',
   }),
   bundler: viteBundler(),
+  public: '${sourceDir}/resources'
 })
