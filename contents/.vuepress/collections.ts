@@ -14,6 +14,7 @@ export default defineCollections([
         link: '/',
         linkPrefix: '/article/',
         title: '主页',
+        pagination: 12,
 
         categoriesLink: '/categories/',
         categoriesTransform: (items: PostsCategoryItem[]) => {

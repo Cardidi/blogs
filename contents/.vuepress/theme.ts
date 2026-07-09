@@ -10,9 +10,9 @@ export default plumeTheme({
 
     profile: {
         name: 'Ca2didi',
-        description: '超级加班的游戏开发民工',
+        description: 'S U P E R 加班的游戏民工',
         avatar: '/avatar.jpg',
-        location: "北京",
+        location: "大陆北方网友",
         circle: true,
         layout: 'right'
     },
@@ -26,7 +26,7 @@ export default plumeTheme({
     collections,
 
     footer: {
-        message: 'Use <a href="https://v2.vuepress.vuejs.org/" target="_blank">VuePress</a> & <a href="https://theme-plume.vuejs.press" target="_blank">Plume</a> to Organize Bytes.',
+        message: 'Use <a href="https://v2.vuepress.vuejs.org/" target="_blank">VuePress</a> & <a href="https://theme-plume.vuejs.press" target="_blank">Plume</a> to Organize Thoughts',
         copyright: "Cardidi © 2026, All Right Reserved."
     },
 
@@ -35,18 +35,16 @@ export default plumeTheme({
     },
 
     plugins: {
-        markdownPower: {
-            pdf: true,
-            bilibili: true,
-            youtube: true,
-            icons: true,
-            codepen: true,
-            jsfiddle: true,
-            codeSandbox: true,
-            replit: true,
-        },
-        watermark: { enabled: false },
         sitemap: { hostname: 'https://ca2didi.xyz' },
+    },
+
+    markdown: {
+      hint: true,
+      alert: true,
+      fileTree: true,
+      plot: true,
+      icons: true,
+      math: { type: 'katex' },
     }
 
 })

@@ -4,7 +4,7 @@ import theme from './theme.ts'
 
 export default defineUserConfig({
     lang: 'zh-CN',
-    title: 'CA2DSite',
+    title: 'CA\\\\D',
     description: 'Preserved Space for Ca2didi',
     base: '/',
     bundler: viteBundler(),
