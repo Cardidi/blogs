@@ -7,6 +7,7 @@ export default plumeTheme({
 
     logo: '',
     appearance: true,
+    contributors: false,
 
     profile: {
         name: 'Ca2didi',

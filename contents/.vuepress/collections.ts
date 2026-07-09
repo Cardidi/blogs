@@ -7,13 +7,14 @@ categoriesMap.set("tech", "技术思考");
 
 export default defineCollections([
     {
-      type: 'post',
+        type: 'post',
         dir: 'posts',
         include: ['**/*.md'],
         
-        link: '/',
+        link: '/posts',
         linkPrefix: '/article/',
         title: '主页',
+        postList: false,
         pagination: 12,
 
         categoriesLink: '/categories/',
